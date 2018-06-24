@@ -2,15 +2,22 @@ body {
   background: #3a4149;
   font-family: 'Poppins', sans-serif;
  }
-
+.navbar{
+    background: #3a4149;
+    border-bottom: 1px solid #000000;
+}
+.logo img{
+    width: 90px;
+    position: relative;
+    left: 20px;
+}
  .btn-info{
-  display: inline-block;
-  position: relative;
-  left: 184px;
-  background: none;
-  width: 50px;
-  border: none;
-  box-shadow: transparent;
+    display: inline-block;
+    position: relative;
+    left: 105px;
+    background: none;
+    width: 50px;
+    border: none;
  }
  .btn-info:not(.nohover):hover {  
   color:#ffffff !important;
@@ -29,6 +36,11 @@ body {
    width: 21px;
 
  }
+ .components img{
+    width: 15px;
+    padding-bottom: 5px;
+ }
+ 
   #sidebar {
     min-width: 250px;
     max-width: 250px;
@@ -44,8 +56,8 @@ body {
   }
   
   #sidebar {
-      min-width: 250px;
-      max-width: 250px;
+      min-width: 200px;
+      max-width: 200px;
   }
   
   #sidebar.active {
@@ -82,42 +94,53 @@ a, a:hover, a:focus {
 
 #sidebar {
     /* don't forget to add all the previously mentioned styles here too */
-    background: #7386D5;
+    background: #3a4149;
     color: #fff;
     transition: all 0.3s;
+}
+.sidebar-header {
+    border-right: 1px solid #000000;
+    
 }
 
 #sidebar .sidebar-header {
     padding: 20px;
-    background: #6d7fcc;
+    background: #3a4149;
+}
+.sidebar-header img{
+    width: 15px;
+    padding-bottom: 5px;
 }
 
 #sidebar ul.components {
     padding: 20px 0;
-    border-bottom: 1px solid #47748b;
+    border-bottom: 1px solid #000000;
+    border-right: 1px solid #000000;
+
 }
 
 #sidebar ul p {
     color: #fff;
     padding: 10px;
+    font-size: 13px;
 }
 
 #sidebar ul li a {
     padding: 10px;
-    font-size: 1.1em;
+    font-size: smaller;
     display: block;
 }
 #sidebar ul li a:hover {
-    color: #7386D5;
-    background: #fff;
+    color: #3a4149;
+    background: #20a8d8;
 }
 
 #sidebar ul li.active > a, a[aria-expanded="true"] {
     color: #fff;
-    background: #6d7fcc;
+    background: #3a4149;
 }
 ul ul a {
     font-size: 0.9em !important;
     padding-left: 30px !important;
-    background: #6d7fcc;
+    background: #3a4149;
 }
